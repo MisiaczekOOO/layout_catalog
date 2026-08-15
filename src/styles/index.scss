@@ -3,6 +3,8 @@ $main-accent: #060b35;
 $blue-accent: #00acdc;
 $active-color: #00acdc;
 $card-title-hover: #34568b;
+$card-border: #f3f3f3;
+$white: #fff;
 
 * {
   box-sizing: border-box;
@@ -43,7 +45,7 @@ main {
 .card {
   width: 200px;
   padding: 32px 16px 16px;
-  border: 1px solid #f3f3f3;
+  border: 1px solid $card-border;
   border-radius: 5px;
   box-sizing: border-box;
   font-family: Roboto, sans-serif;
@@ -128,12 +130,12 @@ main {
     border-radius: 5px;
     border: 1px solid $blue-accent;
     text-decoration: none;
-    color: white;
+    color: $white;
     text-transform: uppercase;
     font-weight: 700;
     transition: all 0.3s;
     &:hover {
-      background-color: white;
+      background-color: $white;
       color: $blue-accent;
       margin-top: 15px;
     }
