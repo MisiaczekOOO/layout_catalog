@@ -12,7 +12,7 @@
   transition: transform 0.3s ease;
   transform: scale(1);
   &__image {
-    background-image: url('../images/imac.jpeg');
+    background-image: url('../../src/images/imac.jpeg');
     background-size: 100% 100%;
     margin: 0 auto;
     width: 160px;
@@ -31,7 +31,7 @@
   &:hover {
     transform: scale(1.2);
     .card__title {
-      color: #34568b;
+      color: $card-title-hover;
     }
   }
 

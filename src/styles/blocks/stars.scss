@@ -1,10 +1,12 @@
+@use '../utils/variables' as *;
+
 .stars {
   display: flex;
   gap: 8px;
   margin-left: 2px;
 
   &__star {
-    background-image: url('../images/star.svg');
+    background-image: url('../../src/images/star.svg');
     height: 12px;
     width: 12px;
   }
@@ -15,6 +17,6 @@
   &--3 .stars__star:nth-child(-n + 3),
   &--4 .stars__star:nth-child(-n + 4),
   &--5 .stars__star:nth-child(-n + 5) {
-    background-image: url('../images/star-active.svg');
+    background-image: url('../../src/images/star-active.svg');
   }
 }
